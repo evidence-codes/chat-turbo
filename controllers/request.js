@@ -1,16 +1,19 @@
-const openai = require('../config/config')
+const openai = require('../config/config');
 const { ResponseHandler } = require('../utils');
 
+
 const request = async (req, res) => {
-
-    const { message } = req.body;
+    const { message } = req.body
     console.log(message)
-
     const completion = await openai.createChatCompletion({
         model: "gpt-3.5-turbo",
-        messages: [{ role: "user", content: `${message}` }]
+        messages: [{ role: "user", content: `${message}` }],
     });
-    // console.log(completion.data.choices[0].message);
+    // res.json({
+    //     // data: response.data
+    //     message: response.data.choices[0].text
+    // })
+
     ResponseHandler(res, data = completion.data.choices[0].message, error = null, status = 200)
 }
 
