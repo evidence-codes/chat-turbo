@@ -1,13 +1,16 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "env": "^0.0.2",
     "express": "^4.18.2",
-    "nodemon": "^2.0.21",
-    "openai": "^3.2.1"
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0"
   },
-  "name": "chat-turbo",
+  "name": "hapsie",
   "version": "1.0.0",
+  "description": "A chatbot that lets children chat with their favorite comic character cunning carly.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,13 +18,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CybertronicEvidence/chat-turbo.git"
+    "url": "git+https://github.com/CybertronicEvidence/Hapsie.git"
   },
-  "author": "",
+  "keywords": [
+    "Hapsie",
+    "hapsie-bot"
+  ],
+  "author": "Evidence Adejuwon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CybertronicEvidence/chat-turbo/issues"
+    "url": "https://github.com/CybertronicEvidence/Hapsie/issues"
   },
-  "homepage": "https://github.com/CybertronicEvidence/chat-turbo#readme",
-  "description": ""
+  "homepage": "https://github.com/CybertronicEvidence/Hapsie#readme"
 }
