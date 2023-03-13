@@ -8,26 +8,27 @@
     "nodemon": "^2.0.20",
     "openai": "^3.1.0"
   },
-  "name": "hapsie",
+  "name": "chat-turbo",
   "version": "1.0.0",
-  "description": "A chatbot that lets children chat with their favorite comic character cunning carly.",
+  "description": "Salesfuse chatbot that uses the latest gpt-3 turbo model to answer requests.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CybertronicEvidence/Hapsie.git"
+    "url": "git+https://github.com/CybertronicEvidence/chat-turbo.git"
   },
   "keywords": [
-    "Hapsie",
-    "hapsie-bot"
+    "Salesfuse",
+    "chat-turbo"
   ],
   "author": "Evidence Adejuwon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CybertronicEvidence/Hapsie/issues"
+    "url": "https://github.com/CybertronicEvidence/chat-turbo/issues"
   },
-  "homepage": "https://github.com/CybertronicEvidence/Hapsie#readme"
+  "homepage": "https://github.com/CybertronicEvidence/chat-turbo#readme"
 }
